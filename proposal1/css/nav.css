@@ -1,4 +1,22 @@
 /* NAVIGATION */
 
 nav {
+    background-color: #bcdef1;
+    padding: 10px;
+    display: flex;
+    padding: 0px 0px 0px 100px;
+    font-size: 24px;
+    font-family: "Merriweather";
 }
+
+nav ul{
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    padding: 0px 0px 0px 800px;
+}
+
+nav ul li{
+    padding: 25px 0px 0px 0px;
+}
+
