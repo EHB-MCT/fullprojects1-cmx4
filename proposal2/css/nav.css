@@ -1,22 +1,39 @@
 /* NAVIGATION */
-
 nav {
     background-color: #bcdef1;
-    padding: 10px;
+    color: white;
     display: flex;
-    padding: 0px 0px 0px 100px;
+    align-items: center; 
     font-size: 24px;
-    font-family: "Merriweather";
+    font-family: "Merriweather", serif; 
+    border-radius: 40px;
+    padding: 20px; 
+    width: fit-content; 
+    gap: 20px;
+    padding-right: 1350px;
+   
 }
 
-nav ul{
+nav .image img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+nav ul {
     display: flex;
-    gap: 100px;
-    list-style-type: none;
-    padding: 0px 0px 0px 800px;
+    flex-direction: column; 
+    gap: 5px; 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
 }
 
-nav ul li{
-    padding: 25px 0px 0px 0px;
+nav ul li {
+    font-size: 16px; 
+    color: white;
+    font-weight: bold;
 }
-    
+
+

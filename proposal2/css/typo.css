@@ -5,41 +5,39 @@
 
 
 h1 {
-    background-color: #ec5671;
-    color: white;
-    font-size: 36px;
-    display: inline-block;
-    font-family: "Merriweather";
+font-size: 36px;
+font-family: "Merriweather";
+color: #255377;
 }
 
 h2 {
-    color: #255377;
-    font-size: 36px;
-    font-family: "Merriweather";
+
     
 }
 
 h3 {
-    font-size: 21px;
-    color: #255377;
-    font-family: "Montserrat";
+
 }
 
 h4 {
+
 }
 
 h5 {
+
 }
 
 h6 {
 }
 
 p {
-    font-size: 14px;
-    color: #255377;
+font-size: 14px;
+font-family: "Montserrat";
+color: #255377;
 }
 
 a {
 
 }
+
 
