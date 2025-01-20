@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #f4edd0;
+}
+
+.navigation {
+    height: 160px;
+    background-color: #bcdef1;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #255377;
+    font-weight: 1000;
+    
+}
+
+.logo-cinemaximiliaan {
+    height: 150px;
+    padding-left: 100px;
+}
+
+.navigation li {
+    display: inline;
+    padding-right: 1200px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+hr {
+    color: #255377;            
+    background-color: #255377; 
+    height: 1.6px;           
+    border: none;
+    width: 1100px;    
+    margin-left: 0px;
+}
+
+
