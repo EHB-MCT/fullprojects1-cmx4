@@ -128,3 +128,16 @@ hr {
 .story-2-tekst p{
     color: #255377;
 }
+
+.story-2-picture img {
+    position: relative;
+    height: 1000px;
+    margin-top: -350px;
+    margin-left: 160px;
+}
+
+.story-2-tekst {
+    position: relative;
+    margin-left: 380px;
+    margin-top: 30px;
+}
