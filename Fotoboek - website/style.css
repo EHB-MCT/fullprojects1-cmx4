@@ -7,14 +7,16 @@ body {
 }
 
 .navigation {
+    width: 100%;
 	height: 160px;
 	background-color: #bcdef1;
 	display: flex;
-	padding: 10px;
 	justify-content: space-between;
 	align-items: center;
 	color: #255377;
 	font-weight: 1000;
+    position: relative;
+    
 }
 
 .logo-cinemaximiliaan {
@@ -24,7 +26,6 @@ body {
 
 .navigation li {
 	display: inline;
-	padding-right: 1200px;
 	white-space: nowrap; /* Prevent text from wrapping */
 }
 
@@ -33,25 +34,38 @@ hr {
 	background-color: #255377;
 	height: 1.6px;
 	border: none;
-	width: 1100px;
-	margin-left: 0px;
+	width: 1070px;
+    position: relative;
+}   
+
+.navigation-2 .socials {
+    display: flex;
+    gap: 15px;
 }
 
-nav .socials {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 0;
-	margin: 0;
-}
 
-nav .socials img {
-	height: 35px;
+.navigation-2 .socials img {
+    background-color: #255377;
+    border-radius: 100px;
+	height: 35px;   
 	width: auto;
 	transition: transform 0.3s ease;
 }
 
-nav .socials img:hover {
+.navigation-2 .socials img:hover {
 	transform: scale(1.2);
 }
+
+.navigation-2 {
+    position: absolute;
+    right: 140px;
+    bottom: 45px; /* Moves the icons up */
+}
+
+.navigation-0 {
+    padding-right: 145px;
+}
+
+
+
+
