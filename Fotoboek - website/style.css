@@ -87,7 +87,7 @@ hr {
     font-family: "Montserrat";
 }
 
-.button a{
+.button-1 a{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
@@ -140,4 +140,31 @@ hr {
     position: relative;
     margin-left: 380px;
     margin-top: 30px;
+}
+
+.story-behind {
+    background-color: #ec5671;
+    height: 800px;
+}
+
+.button-2 a{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: -80px;
+    background-color: #ec5671;
+    color: white;
+    padding: 15px 100px;
+    border-radius: 25px;
+    font-size: 36px; 
+    text-decoration: none;
+
+}
+
+.story-behind-1-picture img{
+    position: relative;
+    height: 700px;
+    margin-top: 120px;
+    margin-left: 260px;
+    
 }
