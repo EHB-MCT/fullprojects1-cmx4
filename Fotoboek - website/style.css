@@ -16,7 +16,6 @@ body {
 	color: #255377;
 	font-weight: 1000;
     position: relative;
-    
 }
 
 .logo-cinemaximiliaan {
@@ -66,6 +65,66 @@ hr {
     padding-right: 145px;
 }
 
+.header img{
+    margin-top: 22px;
+    height: 750px;
+    position: absolute;
+}
 
+.header .titel img{
+    height: 200px;
+    position: absolute;
+    margin-bottom: 400px;
+    margin-left: 420px;
+}
 
+.header-text {
+    position: relative;
+    margin-top: 630px;
+    margin-left: 500px;
+    font-size: 15px;
+    color: #255377;
+    font-family: "Montserrat";
+}
 
+.button a{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    background-color: #ec5671;
+    color: white;
+    padding: 15px 100px;
+    border-radius: 25px;
+    font-size: 36px; 
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.story-1-picture img{
+    position: relative;
+    height: 1000px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.story-1-tekst {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 243px;
+}
+
+.story-1-tekst h1{
+    color: #255377;
+}
+
+.story-1-tekst p{
+    color: #255377;
+}
+
+.story-2-tekst h1 {
+    color: #255377;
+}
+
+.story-2-tekst p{
+    color: #255377;
+}
