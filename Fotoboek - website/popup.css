@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	background-color: #f4edd0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url("images/pop-up\ afbeelding-08.png");
+	background-size: 55%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 250px;
+	margin: 20%;
+}
+
+.popup-text {
+	margin: 0px 280px;
+	padding-top: auto;
+	color: #255377;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 0 auto;
+	gap: 10px;
+}
+
+.input input {
+	background-color: #ec5671;
+	border: 2px solid #ec5671;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	padding-left: 50px;
+}
+
+.firs-name {
+	display: flex;
+	flex-direction: column;
+	padding-left: auto;
+}
+
+.email {
+	display: flex;
+	flex-direction: column;
+}
+
+.last-name {
+	display: flex;
+	flex-direction: column;
+}
+
+.anonymous {
+	display: flex;
+	flex-direction: column;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+}
+
+.photo {
+	display: flex;
+	flex-direction: column;
+}
