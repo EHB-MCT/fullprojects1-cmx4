@@ -5,9 +5,8 @@ body {
 	background-color: #f4edd0;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	background-image: url("images/pop-up\ afbeelding-08.png");
-	background-size: 55%;
+	background-size: 60%;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 250px;
@@ -15,17 +14,16 @@ body {
 }
 
 .popup-text {
-	margin: 0px 280px;
+	margin: 0px 180px;
 	padding-top: auto;
+	margin-bottom: 50px;
 	color: #255377;
 }
 
 .input {
 	display: flex;
-	flex-direction: column;
-	width: 300px;
-	margin: 0 auto;
-	gap: 10px;
+	flex-wrap: wrap;
+	padding-left: 145px;
 }
 
 .input input {
@@ -36,35 +34,36 @@ body {
 	border-radius: 10px;
 	font-size: 16px;
 	padding-left: 50px;
+	margin-right: 20px;
 }
 
-.firs-name {
-	display: flex;
-	flex-direction: column;
-	padding-left: auto;
+.input input::placeholder {
+	color: white;
 }
 
-.email {
+.name {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	padding: 10px;
 }
 
-.last-name {
+.personal {
 	display: flex;
-	flex-direction: column;
-}
-
-.anonymous {
-	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	padding: 10px;
 }
 
 .story {
 	display: flex;
 	flex-direction: column;
+	padding: 10px;
 }
 
 .photo {
 	display: flex;
-	flex-direction: column;
+	direction: column;
+}
+
+.submit {
+	color: #255377;
 }
