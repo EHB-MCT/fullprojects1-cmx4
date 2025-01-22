@@ -42,6 +42,7 @@ hr {
 	display: flex;
 	gap: 15px;
 }
+
 .navigation-2 .socials img {
 	background-color: #255377;
 	border-radius: 100px;
@@ -102,6 +103,7 @@ hr {
 
 .button-1 a {
 	background-color: #ec5671;
+	font-family: "Merriweather";
 	color: white;
 	padding: 15px 100px;
 	border-radius: 50px;
@@ -159,8 +161,8 @@ hr {
 }
 
 .story-behind {
-    background-color: #ec5671;
-    height: 800px;
+	background-color: #ec5671;
+	height: 800px;
 }
 
 .button-2 a {
@@ -176,17 +178,16 @@ hr {
 	text-decoration: none;
 }
 
-.story-behind-1-picture img{
-    position: relative;
-    height: 700px;
-    margin-top: 120px;
-    margin-left: 260px;
-    
+.story-behind-1-picture img {
+	position: relative;
+	height: 700px;
+	margin-top: 120px;
+	margin-left: 260px;
 }
 
 .story-Viet-title {
-    color: white;
-    font-size: 36px;;
-    position: absolute;
-    margin-left: 330px;
+	color: white;
+	font-size: 36px;
+	position: absolute;
+	margin-left: 330px;
 }
