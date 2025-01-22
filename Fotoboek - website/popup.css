@@ -22,49 +22,38 @@ body {
 
 .input {
 	display: flex;
-	flex-direction: column;
-	width: 300px;
-	margin: 0 auto;
-	gap: 10px;
+	flex-wrap: wrap;
+	padding-left: 180px;
 }
 
 .input input {
 	background-color: #ec5671;
 	border: 2px solid #ec5671;
-	color: white;
 	padding: 10px;
 	border-radius: 10px;
 	font-size: 16px;
 	padding-left: 50px;
 }
 
-.firs-name {
+.name {
 	display: flex;
-	flex-direction: column;
-	padding-left: auto;
+	flex-direction: row;
+	padding: 10px;
 }
 
-.email {
+.personal {
 	display: flex;
-	flex-direction: column;
-}
-
-.last-name {
-	display: flex;
-	flex-direction: column;
-}
-
-.anonymous {
-	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	padding: 10px;
 }
 
 .story {
 	display: flex;
 	flex-direction: column;
+	padding: 10px;
 }
 
 .photo {
 	display: flex;
-	flex-direction: column;
+	direction: column;
 }
