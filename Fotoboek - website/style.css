@@ -75,14 +75,14 @@ hr {
 }
 
 .header img {
-    max-height: 100%;       
-    width: auto;            
+    max-width: 100%;       
+    height: auto;            
 }
 
 .header .titel {
     display: flex;          
     justify-content: center; 
-    margin-top: -750px;      
+    margin-top: -750px;     
 }
 
 .header .titel img {
