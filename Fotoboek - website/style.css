@@ -154,11 +154,6 @@ hr {
     margin-top: 30px;
 }
 
-.story-behind {
-    background-color: #ec5671;
-    height: 800px;
-}
-
 .button-2 a{
     position: absolute;
     transform: translateX(-50%);
@@ -173,10 +168,70 @@ hr {
 
 }
 
-.story-behind-1-picture img{
+.storys-behind {
+    background-color: #ec5671;
+    height: 800px;
+}
+
+.story-behind-1 {
+    display: flex;
+}
+
+.story-behind-1-tekst {
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 220px;
+}
+.story-behind-1-background-picture img{
     position: relative;
     height: 700px;
     margin-top: 120px;
     margin-left: 260px;
-    
+}
+
+.picture-Barbara img{
+    position: absolute;
+    height: 500px;
+    margin-left: -600px;
+    margin-top:  100px;
+}
+
+.story-Barbara-title {
+    color: white;
+    font-size: 36px;;
+    position: absolute;
+    margin-left: 330px;
+}
+
+
+/* VIET */
+
+.story-behind-2 {
+    display: flex;
+}
+
+.story-behind-2-tekst {
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 220px;
+}
+.story-behind-2-background-picture img{
+    position: relative;
+    height: 700px;
+    margin-top: 120px;
+    margin-left: 260px;
+}
+
+.picture-Viet img{
+    position: absolute;
+    height: 500px;
+    margin-left: -600px;
+    margin-top:  100px;
+}
+
+.story-Viet-title {
+    color: white;
+    font-size: 36px;;
+    position: absolute;
+    margin-left: 330px;
 }
