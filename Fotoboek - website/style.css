@@ -7,7 +7,6 @@ body {
 	font-family: "Montserrat";
 }
 
-
 .navigation {
 	width: 100%;
 	height: 160px;
@@ -29,7 +28,7 @@ body {
 	padding-left: 100px;
 }
 
-.nav-items{
+.nav-items {
 	margin-right: 800px;
 }
 
@@ -38,26 +37,26 @@ body {
 }
 
 .navigation-1 {
-    display: flex;
-    gap: 20px; /* Adjust spacing between items */
-    align-items: center;
+	display: flex;
+	gap: 20px; /* Adjust spacing between items */
+	align-items: center;
 	flex-direction: column;
 	margin-right: 20px;
 }
 
 .navigation-1 li {
-    display: inline; /* Ensure list items are inline */
-    list-style: none; /* Remove bullet points */
+	display: inline; /* Ensure list items are inline */
+	list-style: none; /* Remove bullet points */
 }
 
 hr {
-    color: #255377;
-    background-color: #255377;
-    height: 1.6px;
-    border: none;
-    width: 1070px;
-    position: relative;
-    margin-top: -20px; /* Add some space between text and line */
+	color: #255377;
+	background-color: #255377;
+	height: 1.6px;
+	border: none;
+	width: 1070px;
+	position: relative;
+	margin-top: -20px; /* Add some space between text and line */
 }
 
 .navigation-2 .socials {
@@ -88,48 +87,49 @@ hr {
 }
 
 .header {
+	background-image: url(images/Head\ image-07.png);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	background-image: url(images/Head\ image-07.png);
-	background-size: cover;
-	background-position: center;
-	height: 820px;
-	max-width: 100%;
-	margin-top: -30px;
 	position: relative;
 }
 
 .header img {
-	width: 35%;
+	max-width: 100%;
 	height: auto;
-	margin-top: 25px;
+	margin-top: 10px;
 }
 
 .header-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 600px;
-	margin-bottom: 20px;
+	margin-top: 670px;
+	margin-bottom: 10px;
+	margin-left: 500px;
+	margin-right: 500px;
 }
 
 .header-text {
-	font-size: 18pt;
+	font-size: 16pt;
 	color: #255377;
 	font-family: "Montserrat";
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .button-1 a {
 	background-color: #ec5671;
 	font-family: "Merriweather";
 	color: white;
-	padding: 15px 100px;
+	padding: 15px 30px;
 	border-radius: 50px;
-	font-size: 36pt;
+	font-size: 24pt;
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
@@ -153,18 +153,9 @@ hr {
 	margin-top: 243px;
 }
 
-.story-1-tekst h1 {
-	color: #255377;
-}
-
-.story-1-tekst p {
-	color: #255377;
-}
-
-.story-2-tekst h1 {
-	color: #255377;
-}
-
+.story-1-tekst h1,
+.story-1-tekst p,
+.story-2-tekst h1,
 .story-2-tekst p {
 	color: #255377;
 }
@@ -187,119 +178,104 @@ hr {
 	height: 800px;
 }
 
-.button-2 a {
-	position: absolute;
-	transform: translateX(-50%);
-	left: 50%;
-	background-color: #ec5671;
-	color: white;
-	padding: 15px 100px;
-	border-radius: 25px;
-	font-size: 36px;
-	text-decoration: none;
-    margin-top: 18px;
-}
-
 /* Roze achtergrond stukje*/
 
 .storys-behind {
-    background-color: #ec5671;
-    height: 875px;
-    display: flex;
-    margin-top: 200px;
+	background-color: #ec5671;
+	height: 875px;
+	display: flex;
+	margin-top: 200px;
 }
 
 /*BARBARA*/
 
 .story-behind-1 {
-    display: flex;
+	display: flex;
 }
 
 .story-behind-1-tekst {
-    position: absolute;
-    margin-left: 390px;
-    margin-top: 220px;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 220px;
 }
-.story-behind-1-background-picture img{
-    position: relative;
-    height: 700px;
-    margin-top: 120px;
-    margin-left: 260px;
+.story-behind-1-background-picture img {
+	position: relative;
+	height: 700px;
+	margin-top: 120px;
+	margin-left: 260px;
 }
 
-.picture-Barbara img{
-    position: absolute;
-    height: 500px;
-    margin-left: -600px;
-    margin-top:  100px;
+.picture-Barbara img {
+	position: absolute;
+	height: 500px;
+	margin-left: -600px;
+	margin-top: 100px;
 }
 
 .story-Barbara-title {
-    color: white;
-    font-size: 36px;;
-    position: absolute;
-    margin-left: 330px;
+	color: white;
+	font-size: 36px;
+	position: absolute;
+	margin-left: 330px;
 }
-
 
 /* VIET */
 
 .story-behind-2 {
-    display: flex;
-    margin-left: -250px;
+	display: flex;
+	margin-left: -250px;
 }
 
 .story-behind-2-tekst {
-    position: absolute;
-    margin-left: 390px;
-    margin-top: 220px;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 220px;
 }
-.story-behind-2-background-picture img{
-    position: relative;
-    height: 700px;
-    margin-top: 120px;
-    margin-left: 260px;
+.story-behind-2-background-picture img {
+	position: relative;
+	height: 700px;
+	margin-top: 120px;
+	margin-left: 260px;
 }
 
-.picture-Viet img{
-    position: absolute;
-    height: 500px;
-    margin-left: -350px;
-    margin-top:  100px;
+.picture-Viet img {
+	position: absolute;
+	height: 500px;
+	margin-left: -350px;
+	margin-top: 100px;
 }
 
 .story-Viet-title {
-    color: white;
-    font-size: 36px;;
-    position: absolute;
-    margin-left: 620px;
+	color: white;
+	font-size: 36px;
+	position: absolute;
+	margin-left: 620px;
 }
 
-.story-behind-1-tekst p{
-    font-size: 14px;
-    color: #255377;
+.story-behind-1-tekst p {
+	font-size: 14px;
+	color: #255377;
 }
 
-.story-behind-2-tekst p{
-    font-size: 14px;
-    color: #255377;
+.story-behind-2-tekst p {
+	font-size: 14px;
+	color: #255377;
 }
-
 
 .button-3 a {
-    position: absolute;
+	position: absolute;
 	background-color: #bcdef1;
 	font-family: "Merriweather";
 	color: white;
-	padding: 15px 100px;
-	border-radius: 25px;
-	font-size: 36pt;
+	padding: 15px 30px;
+	border-radius: 50px;
+	font-size: 24pt;
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
-    transform: translateX(-50%);
+	transform: translateX(-50%);
 	left: 50%;
-    margin-top: -40px;
+	margin-top: -40px;
 }
 
 .button-4 a {
@@ -312,7 +288,7 @@ hr {
 	border-radius: 25px;
 	font-size: 36px;
 	text-decoration: none;
-    margin-top: 18px;
+	margin-top: 18px;
 }
 
 .button-4 a:hover {
@@ -321,36 +297,33 @@ hr {
 }
 
 .footer {
-    width: 100%;
-    height: 160px;
-    background-color: #bcdef1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #255377;
-    font-weight: 1000;
-    margin-top: 150px;
-    
+	width: 100%;
+	height: 160px;
+	background-color: #bcdef1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #255377;
+	font-weight: 1000;
+	margin-top: 150px;
 }
 
 .footer li {
-    display: block;
-    white-space: nowrap; /* Prevent text from wrapping */
-    list-style: none;    /* Remove default bullet points */
-}   
+	display: block;
+	white-space: nowrap; /* Prevent text from wrapping */
+	list-style: none; /* Remove default bullet points */
+}
 
 .footer .title {
-    font-size: 36px;
-    margin-left: 90px;
+	font-size: 36px;
+	margin-left: 90px;
 }
 
 .footer .words {
-    font-size: 36px;
-    display: flex;
-    flex-direction: column;  /* Stack items vertically */
-    align-items: flex-end;   /* Align to the right */
-    margin-right: 90px;      /* Add space from the right edge */
-    gap: 10px;               /* Add space between words */
+	font-size: 36px;
+	display: flex;
+	flex-direction: column; /* Stack items vertically */
+	align-items: flex-end; /* Align to the right */
+	margin-right: 90px; /* Add space from the right edge */
+	gap: 10px; /* Add space between words */
 }
-
-
