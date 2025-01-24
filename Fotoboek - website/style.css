@@ -7,6 +7,7 @@ body {
 	font-family: "Montserrat";
 }
 
+
 .navigation {
 	width: 100%;
 	height: 160px;
@@ -28,18 +29,35 @@ body {
 	padding-left: 100px;
 }
 
+.nav-items{
+	margin-right: 800px;
+}
+
 .navigation li {
 	display: inline;
-	white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.navigation-1 {
+    display: flex;
+    gap: 20px; /* Adjust spacing between items */
+    align-items: center;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.navigation-1 li {
+    display: inline; /* Ensure list items are inline */
+    list-style: none; /* Remove bullet points */
 }
 
 hr {
-	color: #255377;
-	background-color: #255377;
-	height: 1.6px;
-	border: none;
-	width: 1070px;
-	position: relative;
+    color: #255377;
+    background-color: #255377;
+    height: 1.6px;
+    border: none;
+    width: 1070px;
+    position: relative;
+    margin-top: -20px; /* Add some space between text and line */
 }
 
 .navigation-2 .socials {
