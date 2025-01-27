@@ -3,6 +3,7 @@
 
 body {
 	background-color: antiquewhite;
+	margin: 0;
 }
 
 /*navigation**/
@@ -21,7 +22,7 @@ nav {
 
 nav img {
 	height: 80px;
-	padding-left: 100px;
+	width: auto;
 }
 
 nav ul a {
@@ -91,9 +92,9 @@ header img {
 	margin-bottom: 20px;
 }
 
-/*call to action**/
+/* call to action --> DONE!*/
 
-.button1 {
+.button-1 a {
 	background-color: #ec5671;
 	font-family: "Merriweather";
 	color: white;
@@ -103,9 +104,10 @@ header img {
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
+	margin-top: 243px;
 }
 
-.button1 a:hover {
+.button-1 a:hover {
 	background-color: #bcdef1;
 	transition: transform 0.3s ease;
 }
