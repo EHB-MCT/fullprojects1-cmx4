@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-	margin: 0;
-	background-color: #f4edd0;
-	font-family: "Montserrat";
+	background-color: antiquewhite;
 }
+
+/*navigation**/
 
 nav {
 	width: 100%;
@@ -14,55 +14,33 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #255377;
 	position: relative;
 	position: sticky;
 	top: 0;
 }
 
 nav img {
-	size: 5px;
-}
-
-.logo-cinemaximiliaan {
-	height: 150px;
+	height: 80px;
 	padding-left: 100px;
 }
 
-.nav-items {
-	margin-right: 800px;
-}
-
-.navigation li {
-	display: inline;
-}
-
-.navigation-1 {
+nav ul a {
+	text-decoration: none;
+	color: #255377;
 	display: flex;
-	gap: 20px; /* Adjust spacing between items */
-	align-items: center;
 	flex-direction: column;
-	margin-right: 20px;
 }
 
-.navigation-1 li {
-	display: inline; /* Ensure list items are inline */
-	list-style: none; /* Remove bullet points */
+nav .socials {
 }
 
 hr {
 	color: #255377;
 	background-color: #255377;
-	height: 1.6px;
+	height: 2px;
 	border: none;
 	width: 1070px;
 	position: relative;
-	margin-top: -20px; /* Add some space between text and line */
-}
-
-.navigation-2 .socials {
-	display: flex;
-	gap: 15px;
 }
 
 .navigation-2 .socials img {
@@ -87,20 +65,9 @@ hr {
 	padding-right: 145px;
 }
 
-.header {
-	background-image: url(images/Head\ image-07.png);
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-}
+/*intro text**/
 
-.header img {
+header img {
 	max-width: 100%;
 	height: auto;
 	margin-top: 10px;
@@ -124,7 +91,9 @@ hr {
 	margin-bottom: 20px;
 }
 
-.button-1 a {
+/*call to action**/
+
+.button1 {
 	background-color: #ec5671;
 	font-family: "Merriweather";
 	color: white;
@@ -136,10 +105,12 @@ hr {
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.button-1 a:hover {
+.button1 a:hover {
 	background-color: #bcdef1;
 	transition: transform 0.3s ease;
 }
+
+/* memories 1 & 2 */
 
 .story-1-picture img {
 	position: relative;
@@ -174,12 +145,7 @@ hr {
 	margin-top: 30px;
 }
 
-.story-behind {
-	background-color: #ec5671;
-	height: 800px;
-}
-
-/* Roze achtergrond stukje*/
+/* memories 3 & 4 */
 
 .storys-behind {
 	background-color: #ec5671;
@@ -188,7 +154,7 @@ hr {
 	margin-top: 200px;
 }
 
-/*BARBARA*/
+/*Barbara*/
 
 .story-behind-1 {
 	display: flex;
@@ -220,7 +186,7 @@ hr {
 	margin-left: 330px;
 }
 
-/* VIET */
+/* Viet */
 
 .story-behind-2 {
 	display: flex;
@@ -263,6 +229,7 @@ hr {
 	color: #255377;
 }
 
+/* call to action */
 .button-3 a {
 	position: absolute;
 	background-color: #bcdef1;
