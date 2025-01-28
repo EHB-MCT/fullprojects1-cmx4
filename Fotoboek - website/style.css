@@ -17,7 +17,7 @@ nav {
 	top: 0;
 	z-index: 1000;
 	padding: 0 100px;
-	gap: 100px;
+
 	position: relative;
 }
 
@@ -26,7 +26,7 @@ nav {
 	align-items: center;
 	width: 100%;
 	position: relative;
-	gap: 30px;
+	gap: 45px;
 }
 
 nav img {
