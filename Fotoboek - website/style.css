@@ -114,7 +114,12 @@ header {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
+<<<<<<< HEAD
 	box-sizing: border-box; /* padding heeft geen invloed op hoogte/ breedte */
+=======
+	padding-top: 450px;
+	max-width: 100%;
+>>>>>>> 0140571b5d30b20f05cb2df2ad3fd6f71bf2c201
 }
 
 header .information {
@@ -172,10 +177,19 @@ header .button-1 a {
 	width: 100%;
 }
 
-.memory1-text {
+.memory1-text,
+.memory2-text,
+.memory3-text,
+.memory4-text,
+.memory5-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: left;
+	margin: 0 100px;
+}
+
+.memories-pink img {
+	max-width: 20%;
 }
 
 .story-1-picture img {
@@ -340,6 +354,10 @@ header .button-1 a {
 	color: #255377;
 	font-weight: 1000;
 	margin-top: 150px;
+}
+
+footer img {
+	max-width: 20%;
 }
 
 .footer li {
