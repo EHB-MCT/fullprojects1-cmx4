@@ -215,17 +215,25 @@ header .button-1 a {
 .memories-pink {
 	background-color: #ec5671;
 	height: 750px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+.memory3,
+.memory4 {
+	display: contents;
+	position: relative;
+	flex: 1;
+	margin: 0 10px;
 }
 
-.memory3 img {
-	height: 575px;
-	width: auto;
-}
-
+.memory3 img,
 .memory4 img {
 	height: 575px;
 	width: auto;
 }
+
 /*Barbara*/
 
 /* Viet */
