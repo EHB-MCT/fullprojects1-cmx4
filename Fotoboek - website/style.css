@@ -165,7 +165,7 @@ header .button-1 a {
 
 /* Memories 1 & 2 */
 
-.memory_1-2 {
+.title {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -190,15 +190,17 @@ header .button-1 a {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	text-align: left;
+	margin-left: 45%;
+	margin-top: 15px;
 }
 
 .memory1 p {
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
-	justify-content: left;
-	text-align: left;
+	justify-content: end;
+	margin-left: 45%;
+	margin-top: 10px;
 }
 
 .memory2 {
@@ -210,6 +212,22 @@ header .button-1 a {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+.memory2 h1 {
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 15%;
+}
+
+.memory2 p {
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 15%;
 }
 
 /* memories 3 & 4 */
