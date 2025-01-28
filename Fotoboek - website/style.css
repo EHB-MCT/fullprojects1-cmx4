@@ -15,9 +15,8 @@ nav {
 	display: flex;
 	align-items: center;
 	top: 0;
-	z-index: 1000;
+	z-index: 2;
 	padding: 0 100px;
-
 	position: relative;
 }
 
@@ -30,15 +29,17 @@ nav {
 }
 
 nav img {
-	height: 80px;
+	height: 85px;
 	width: auto;
 }
 
 .items {
 	list-style: none;
 	display: flex;
-	gap: 30px;
+	gap: 40px;
 	padding: 0;
+	font-family: "Merriweather";
+	font-size: 14pt;
 }
 
 .items li {
@@ -49,42 +50,53 @@ nav img {
 	text-decoration: none;
 	color: #255377;
 	font-weight: 600;
-	font-size: 1.2em;
 	transition: color 0.3s ease;
 }
 
 .items a:hover {
-	color: #163d5f;
+	color: #ec5671;
 }
 
-/* Line */
-hr {
+.hr-container {
 	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
+	width: 100%;
+	left: 0;
+	top: 65px;
+	flex-grow: 1;
+}
+
+.hr-container hr {
 	width: 60%;
 	height: 1px;
 	background-color: #255377;
 	border: none;
-	flex-grow: 1;
 }
 
 /* Social Media */
 .socials {
+	z-index: 4;
 	display: flex;
-	flex-direction: row;
 	gap: 10px;
+	position: relative;
+}
+
+.socials a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #255377;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .socials a img {
-	background-color: #255377;
-	border-radius: 50%;
-	height: 30px;
-	width: auto;
-	padding: 5px;
+	height: 25px;
+	width: 25px;
 }
 
-.socials a img:hover {
+.socials a:hover {
 	transform: scale(1.2);
 	background-color: #163d5f;
 }
