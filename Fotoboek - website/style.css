@@ -167,9 +167,12 @@ header .button-1 a {
 
 .title {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	width: 100%;
+}
+
+.title img {
+	height: 200px;
+	width: auto;
 }
 
 .memory1 {
