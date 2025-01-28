@@ -114,12 +114,8 @@ header {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-<<<<<<< HEAD
-	box-sizing: border-box; /* padding heeft geen invloed op hoogte/ breedte */
-=======
 	padding-top: 450px;
 	max-width: 100%;
->>>>>>> 0140571b5d30b20f05cb2df2ad3fd6f71bf2c201
 }
 
 header .information {
@@ -179,14 +175,17 @@ header .button-1 a {
 
 .memory1 {
 	background-image: url(images/Story_Khairullah.png);
-
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 100% auto;
+	width: 100vw;
+	height: auto;
+	aspect-ratio: 25 / 9;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
+	padding-top: 450px;
 	max-width: 100%;
 }
 
