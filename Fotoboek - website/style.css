@@ -211,12 +211,42 @@ header .button-1 a {
 }
 
 /*PINK*/
+.memories-pink {
+	background-color: #ec5671;
+	height: 750px;
+}
 
+.memory3 img {
+	height: 575px;
+	width: auto;
+}
+
+.memory4 img {
+	height: 575px;
+	width: auto;
+}
 /*Barbara*/
 
 /* Viet */
 
 /* call to action */
+.button-2 a {
+	background-color: #bcdef1;
+	color: #255377;
+	font-family: "Merriweather";
+	padding: 15px 30px;
+	border-radius: 50px;
+	font-size: 24pt;
+	text-decoration: none;
+	margin-bottom: 50px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-2 a:hover {
+	background-color: #ec5671;
+	color: white;
+	transition: transform 0.3s ease;
+}
 
 /*FOOTER --> DONE!*/
 footer {
