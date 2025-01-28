@@ -165,7 +165,7 @@ header .button-1 a {
 
 /* Memories 1 & 2 */
 
-.title {
+.title img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
