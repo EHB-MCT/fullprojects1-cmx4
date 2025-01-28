@@ -7,7 +7,11 @@
 		<link rel="stylesheet" href="popup.css" />
 	</head>
 	<body>
-		<div class="popup">
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtn">Share your memory</button>
+
+		<div id="myModal" class="popup">
+			<span class="close">&times;</span>
 			<div class="content">
 				<div class="popup-text">
 					<div class="information">
@@ -77,5 +81,8 @@
 				<button onclick="submitForm()">Submit</button>
 			</div>
 		</div>
+
+		<script src="popup.js"></script>
+		<!-- Externe JS bestand -->
 	</body>
 </html>
