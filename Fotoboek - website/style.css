@@ -188,6 +188,8 @@ header .button-1 a {
 }
 
 .memory1 h1 {
+	font-family: "Merriweather";
+	font-weight: bold;
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
@@ -217,6 +219,8 @@ header .button-1 a {
 }
 
 .memory2 h1 {
+	font-family: "Merriweather";
+	font-weight: bold;
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
