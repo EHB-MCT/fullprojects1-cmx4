@@ -114,8 +114,6 @@ header {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-	padding-top: 450px;
-	max-width: 100%;
 }
 
 header .information {
