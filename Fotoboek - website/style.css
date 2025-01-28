@@ -242,9 +242,10 @@ header .button-1 a {
 	background-color: #ec5671;
 	height: 750px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	padding: 0 50px;
+	gap: 50px;
+	position: relative;
 }
 .memory3,
 .memory4 {
@@ -254,9 +255,14 @@ header .button-1 a {
 	margin: 0 10px;
 }
 
+.memories-pink img {
+	height: 575px;
+	width: auto;
+}
+
 .memory3 img,
 .memory4 img {
-	height: 575px;
+	height: 385px;
 	width: auto;
 }
 
