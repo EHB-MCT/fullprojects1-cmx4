@@ -170,10 +170,19 @@ header .button-1 a {
 	width: 100%;
 }
 
-.memory1-text {
+.memory1-text,
+.memory2-text,
+.memory3-text,
+.memory4-text,
+.memory5-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: left;
+	margin: 0 100px;
+}
+
+.memories-pink img {
+	max-width: 20%;
 }
 
 .story-1-picture img {
@@ -338,6 +347,10 @@ header .button-1 a {
 	color: #255377;
 	font-weight: 1000;
 	margin-top: 150px;
+}
+
+footer img {
+	max-width: 20%;
 }
 
 .footer li {
