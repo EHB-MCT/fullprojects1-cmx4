@@ -172,19 +172,17 @@ header .button-1 a {
 }
 
 .memory1 {
+	display: grid;
+	place-items: center;
 	background-image: url(images/Story_Khairullah.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100% auto;
-	width: 100vw;
-	height: auto;
-	aspect-ratio: 25 / 9;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-	padding-top: 450px;
-	max-width: 100%;
+	background-size: contain;
+	aspect-ratio: 16 / 9;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .memory1-text,
@@ -194,36 +192,6 @@ header .button-1 a {
 .memory5-text {
 	margin: 0 100px;
 	color: #255377;
-}
-
-.memories-pink img {
-	max-width: 20%;
-}
-
-.story-1-picture img {
-	position: relative;
-	height: 1000px;
-	margin-top: 150px;
-	margin-left: 150px;
-}
-
-.story-1-tekst {
-	position: absolute;
-	margin-left: 700px;
-	margin-top: 243px;
-}
-
-.story-2-picture img {
-	position: relative;
-	height: 1000px;
-	margin-top: -350px;
-	margin-left: 160px;
-}
-
-.story-2-tekst {
-	position: relative;
-	margin-left: 380px;
-	margin-top: 30px;
 }
 
 /* memories 3 & 4 */
@@ -237,113 +205,9 @@ header .button-1 a {
 
 /*Barbara*/
 
-.story-behind-1 {
-	display: flex;
-}
-
-.story-behind-1-tekst {
-	position: absolute;
-	margin-left: 390px;
-	margin-top: 220px;
-}
-.story-behind-1-background-picture img {
-	position: relative;
-	height: 700px;
-	margin-top: 120px;
-	margin-left: 260px;
-}
-
-.picture-Barbara img {
-	position: absolute;
-	height: 500px;
-	margin-left: -600px;
-	margin-top: 100px;
-}
-
-.story-Barbara-title {
-	color: white;
-	font-size: 36px;
-	position: absolute;
-	margin-left: 330px;
-}
-
 /* Viet */
 
-.story-behind-2 {
-	display: flex;
-	margin-left: -250px;
-}
-
-.story-behind-2-tekst {
-	position: absolute;
-	margin-left: 390px;
-	margin-top: 220px;
-}
-.story-behind-2-background-picture img {
-	position: relative;
-	height: 700px;
-	margin-top: 120px;
-	margin-left: 260px;
-}
-
-.picture-Viet img {
-	position: absolute;
-	height: 500px;
-	margin-left: -350px;
-	margin-top: 100px;
-}
-
-.story-Viet-title {
-	color: white;
-	font-size: 36px;
-	position: absolute;
-	margin-left: 620px;
-}
-
-.story-behind-1-tekst p {
-	font-size: 14px;
-	color: #255377;
-}
-
-.story-behind-2-tekst p {
-	font-size: 14px;
-	color: #255377;
-}
-
 /* call to action */
-.button-3 a {
-	position: absolute;
-	background-color: #bcdef1;
-	font-family: "Merriweather";
-	color: white;
-	padding: 15px 30px;
-	border-radius: 50px;
-	font-size: 24pt;
-	text-decoration: none;
-	margin-bottom: 50px;
-	transition: background-color 0.3s ease, transform 0.3s ease;
-	transform: translateX(-50%);
-	left: 50%;
-	margin-top: -40px;
-}
-
-.button-4 a {
-	position: absolute;
-	transform: translateX(-50%);
-	left: 50%;
-	background-color: #ec5671;
-	color: white;
-	padding: 15px 100px;
-	border-radius: 25px;
-	font-size: 36px;
-	text-decoration: none;
-	margin-top: 18px;
-}
-
-.button-4 a:hover {
-	background-color: #bcdef1;
-	transition: transform 0.3s ease;
-}
 
 .footer {
 	width: 100%;
