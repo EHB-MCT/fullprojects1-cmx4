@@ -106,13 +106,15 @@ header {
 	background-image: url(images/Header.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 100% auto;
+	width: 100vw;
+	height: auto;
+	aspect-ratio: 16 / 9;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
-	padding-top: 600px;
-	max-width: 100%;
+	box-sizing: border-box; /* padding heeft geen invloed op hoogte/ breedte */
 }
 
 header .information {
@@ -121,7 +123,7 @@ header .information {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 0;
+	padding-top: 100px;
 	margin-top: 100px;
 }
 
