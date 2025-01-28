@@ -61,11 +61,11 @@ nav img {
 	width: 100%;
 	top: 65px;
 	flex-grow: 1;
-	left: 130px;
+	left: 140px;
 }
 
 .hr-container hr {
-	width: 73%;
+	width: 67%;
 	height: 1px;
 	background-color: #255377;
 	border: none;
