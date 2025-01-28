@@ -190,15 +190,17 @@ header .button-1 a {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	text-align: left;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .memory1 p {
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
-	justify-content: left;
-	text-align: left;
+	justify-content: end;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .memory2 {
