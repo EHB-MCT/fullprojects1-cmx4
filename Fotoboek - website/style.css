@@ -301,13 +301,15 @@ header .button-1 a {
 }
 
 /* Memories 5 */
-.memory_5 {
+
+.memory5 img {
+	height: 200px;
+	width: auto;
+}
+
+.memory5 {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	text-align: center;
-	width: 100%;
 }
 
 /*FOOTER --> DONE!*/
