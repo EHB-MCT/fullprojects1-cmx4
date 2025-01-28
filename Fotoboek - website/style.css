@@ -170,15 +170,26 @@ header .button-1 a {
 	width: 100%;
 }
 
+.memory1 {
+	background-image: url(images/Story_Khairullah.png);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+}
+
 .memory1-text,
 .memory2-text,
 .memory3-text,
 .memory4-text,
 .memory5-text {
-	display: flex;
-	flex-direction: column;
-	justify-content: left;
 	margin: 0 100px;
+	color: #255377;
 }
 
 .memories-pink img {
@@ -196,13 +207,6 @@ header .button-1 a {
 	position: absolute;
 	margin-left: 700px;
 	margin-top: 243px;
-}
-
-.story-1-tekst h1,
-.story-1-tekst p,
-.story-2-tekst h1,
-.story-2-tekst p {
-	color: #255377;
 }
 
 .story-2-picture img {
