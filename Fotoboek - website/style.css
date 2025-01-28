@@ -196,6 +196,20 @@ header .button-1 a {
 	color: #255377;
 }
 
+.memory2 {
+	display: grid;
+	place-items: center;
+	background-image: url(images/Story_Dialito.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	aspect-ratio: 16 / 9;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 /* memories 3 & 4 */
 
 .storys-behind {
@@ -213,7 +227,7 @@ header .button-1 a {
 
 /* call to action */
 
-/*FOOTER*/
+/*FOOTER --> DONE!*/
 footer {
 	height: 130px;
 	background-color: #bcdef1;
