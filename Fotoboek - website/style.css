@@ -265,6 +265,18 @@ header .button-1 a {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+	align-items: center;
+	width: 50%;
+	max-width: 500px;
+}
+
+.memory3 h1,
+.memory4 h1 {
+	padding-top: 40px;
+	color: white;
+	align-self: center;
+	font-family: "Merriweather";
+	font-weight: bold;
 }
 
 .picturesDiv {
@@ -297,15 +309,6 @@ header .button-1 a {
 	top: 0px;
 	left: 30px;
 	width: 320px;
-}
-
-.memory3 h1,
-.memory4 h1 {
-	padding-top: 40px;
-	color: white;
-	align-self: center;
-	font-family: "Merriweather";
-	font-weight: bold;
 }
 
 .Viet {
