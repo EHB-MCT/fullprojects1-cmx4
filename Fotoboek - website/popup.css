@@ -13,9 +13,15 @@ body {
 	margin: 20%;
 }
 
+.cross img {
+	height: 20px;
+	width: auto;
+	padding: 2%;
+	margin-left: 78%;
+}
+
 .popup-text {
 	margin: 0px 120px;
-	padding-top: auto;
 	margin-bottom: 50px;
 	color: #255377;
 	width: 69%;
