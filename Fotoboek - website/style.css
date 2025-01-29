@@ -255,10 +255,14 @@ header .button-1 a {
 	background-color: #ec5671;
 	height: auto;
 	padding: 50px 0;
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+}
+
+.memories-pink.show {
+	display: flex;
 }
 
 .memory3,
@@ -267,7 +271,7 @@ header .button-1 a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 50%;
+	width: 30%;
 	max-width: 500px;
 }
 
@@ -339,6 +343,10 @@ header .button-1 a {
 }
 
 /*Slideshow*/
+.slideshow-container {
+	background-color: #ec5671;
+}
+
 .prev,
 .next {
 	cursor: pointer;
