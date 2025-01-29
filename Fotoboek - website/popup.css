@@ -9,15 +9,23 @@ body {
 	background-size: 60%;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 250px;
+	height: 220px;
 	margin: 20%;
 }
 
+.cross img {
+	height: 20px;
+	width: auto;
+	padding: 2%;
+	margin-left: 78%;
+}
+
 .popup-text {
-	margin: 0px 170px;
-	padding-top: auto;
+	margin: 0px 120px;
 	margin-bottom: 50px;
 	color: #255377;
+	width: 69%;
+	padding-left: 25px;
 }
 
 .popup-text h1 {
@@ -27,22 +35,24 @@ body {
 .input {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 150px;
+	padding-left: 135px;
 }
 
 .input input {
 	background-color: #ec5671;
 	border: 2px solid #ec5671;
 	color: white;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 10px;
 	font-size: 16px;
-	margin-right: 20px;
+	width: 80%;
 }
 
 .input input::placeholder {
 	color: white;
 	font-family: "Merriweather";
+	font-size: 12px;
+	width: 50%;
 }
 
 .photo input {
@@ -51,25 +61,26 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 5px;
+	font-size: 12px;
 }
 
 .name {
 	display: flex;
 	flex-direction: row;
-	padding: 10px;
+	padding: 5px;
 }
 
 .personal {
 	display: flex;
 	flex-direction: row;
-	padding: 10px;
+	padding: 5px;
 }
 
 .story {
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	padding: 5px;
 }
 
 .story textarea {
@@ -80,12 +91,13 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 	font-size: 16px;
-	margin-right: 20px;
+	margin-right: 5px;
+	width: 87%;
 }
 
 .story textarea::placeholder {
 	color: white;
-	font-size: 16px;
+	font-size: 12px;
 }
 
 .photo {
@@ -106,10 +118,10 @@ body {
 	border: 2px solid #ec5671;
 	color: white;
 	border-radius: 10px;
-	font-size: 20px;
+	font-size: 12px;
 	margin: 20px;
 	width: 25%;
-	height: 50px;
+	height: 40px;
 }
 
 .submit :hover {
@@ -118,8 +130,8 @@ body {
 	border: 2px solid #bcdef1;
 	color: black;
 	border-radius: 10px;
-	font-size: 20px;
+	font-size: 12px;
 	margin: 20px;
 	width: 25%;
-	height: 50px;
+	height: 40px;
 }
