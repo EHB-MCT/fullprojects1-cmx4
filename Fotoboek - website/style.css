@@ -6,6 +6,7 @@ body {
 	color: #255377;
 	margin: 0;
 	font-family: "Montserrat", sans-serif;
+	overflow-x: hidden;
 }
 
 html {
@@ -281,7 +282,7 @@ header .button-1 a {
 .memory3-text,
 .memory4-text {
 	position: absolute;
-	top: 50%;
+	top: 46%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -289,7 +290,7 @@ header .button-1 a {
 	align-self: center;
 	width: 60%;
 	z-index: 2;
-	font-size: 12pt;
+	font-size: 11pt;
 }
 
 .picturesDiv {
@@ -301,8 +302,7 @@ header .button-1 a {
 
 .backgroundPaperL,
 .backgroundPaperR {
-	max-width: 750px;
-	height: 720px;
+	height: 750px;
 	width: auto;
 	position: relative;
 	z-index: 1;
