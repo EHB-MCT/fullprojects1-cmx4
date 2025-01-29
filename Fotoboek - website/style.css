@@ -326,6 +326,12 @@ header .button-1 a {
 }
 
 /* call to action --> DONE!*/
+.button-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .button-2 a {
 	background-color: #bcdef1;
 	color: #255377;
