@@ -372,6 +372,7 @@ header .button-1 a {
 	justify-content: end;
 	margin-left: 45%;
 	margin-top: 15px;
+	padding-top: 20px;
 }
 
 .memory5 p {
@@ -381,6 +382,7 @@ header .button-1 a {
 	justify-content: end;
 	margin-left: 45%;
 	margin-top: 10px;
+	max-width: 50%;
 }
 
 /*FOOTER --> DONE!*/
