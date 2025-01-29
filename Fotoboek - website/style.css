@@ -106,6 +106,22 @@ nav img {
 	background-color: #163d5f;
 }
 
+/*language buttons*/
+.language {
+	display: flex;
+	list-style-type: none;
+	gap: 35px;
+	margin-left: 660px;
+}
+
+.language li a {
+	text-decoration: none;
+	color: #163d5f;
+	font-weight: 800;
+	border-radius: 5px;
+	background-color: #bcdef1;
+}
+
 /*Header --> DONE!**/
 
 header {
@@ -177,15 +193,22 @@ header .button-1 a {
 	padding: 2%;
 }
 
+.slideshow-container-memory1 {
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+}
+
 .memory1 {
-	background-image: url(images/Story_Khairullah.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+	display: none;
+	position: relative;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+}
+
+.memory1.show {
+	display: flex;
 }
 
 .memory1 h1 {
@@ -250,16 +273,7 @@ header .button-1 a {
 	margin-top: 200px;
 }
 
-/*PINK*/
-.memories-pink {
-	background-color: #ec5671;
-	height: auto;
-	padding: 50px 0;
-	display: none;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
+/*Barbara*/
 
 .memories-pink.show {
 	display: flex;
@@ -315,116 +329,78 @@ header .button-1 a {
 .infoL,
 .infoR {
 	position: relative;
-	z-index: 1;
-	transition: z-index 0.4s ease-in-out;
+	height: 700px;
+	margin-top: 120px;
+	margin-left: 260px;
 }
 
-.infoL:hover,
-.infoR:hover {
-	z-index: 4;
-}
-
-.Barbara,
-.Gohram,
-.name1 {
+.picture-Barbara img {
 	position: absolute;
-	top: 0px;
-	left: 30px;
-	width: 320px;
-	z-index: 3;
+	height: 500px;
+	margin-left: -600px;
+	margin-top: 100px;
 }
 
-.Viet,
-.Mahyar,
-.name2 {
+.story-Barbara-title {
+	color: white;
+	font-size: 36px;
 	position: absolute;
-	top: 0px;
-	right: 30px;
-	width: 320px;
-	z-index: 3;
+	margin-left: 330px;
 }
 
-/*Slideshow*/
-.slideshow-container {
-	background-color: #ec5671;
+/* Viet */
+
+.story-behind-2 {
+	display: flex;
+	margin-left: -250px;
+}
+
+.story-behind-2-tekst {
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 220px;
+}
+.story-behind-2-background-picture img {
+	position: relative;
 }
 
 .prev,
 .next {
 	cursor: pointer;
-	position: absolute;
-	top: 50%;
 	width: auto;
 	padding: 16px;
-	margin-top: -22px;
-	color: white;
+	color: #163d5f;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 40px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-}
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
 	position: absolute;
-	top: 0;
+	height: 500px;
+	margin-left: -350px;
+	margin-top: 100px;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bcdef1;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
+.story-Viet-title {
+	color: white;
+	font-size: 36px;
+	position: absolute;
+	margin-left: 620px;
 }
 
-.active,
-.dot:hover {
-	background-color: #163d5f;
+.story-behind-1-tekst p {
+	font-size: 14px;
+	color: #255377;
 }
 
-/* Fading animation */
-.fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
+.story-behind-2-tekst p {
+	font-size: 14px;
+	color: #255377;
 }
 
-@keyframes fade {
-	from {
-		opacity: 0.4;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-/* call to action --> DONE!*/
-.button-2 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.button-2 a {
+/* call to action */
+.button-3 a {
+	position: absolute;
 	background-color: #bcdef1;
 	color: #255377;
 	font-family: "Merriweather";
@@ -432,7 +408,7 @@ header .button-1 a {
 	border-radius: 50px;
 	font-size: 24pt;
 	text-decoration: none;
-	margin-bottom: 50px;
+	margin: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -444,15 +420,22 @@ header .button-1 a {
 
 /* Memories 5 --> DONE!*/
 
+.slideshow-container-memory5 {
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+}
+
 .memory5 {
-	background-image: url(images/Story_Rola.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+	display: none;
+	position: relative;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+}
+
+.memory5.show {
+	display: flex;
 }
 
 .memory5 h1 {

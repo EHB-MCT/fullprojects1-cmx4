@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Share your story</title>
+	<link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+	<div class="popup">
+		<div class="content">
+			<div class="popup-text">
+				<div class="information">
+					<h1>
+						Vier 10 jaar Cinemaximiliaan door je verhaal te delen!
+					</h1>
+					<p>
+						Cinemaximiliaan wordt 10 jaar en jouw verhaal maakt deel uit van onze reis. We verzamelen
+						persoonlijke ervaringen en visuele weergaven om te laten zien hoe CMX door de jaren heen levens
+						heeft geraakt en gemeenschappen heeft opgebouwd.
+					</p>
+				</div>
+				<div class="questions">
+					<p>
+						<strong>Stuur je verhaal in</strong><br />
+						Upload je tekst, foto's of video's en help ons om 10 jaar impact van CMX te documenteren en te
+						vieren!<br />
+						Wie ben jij? <br />
+						Waar woon je nu?<br />
+						Waar kom je oorspronkelijk vandaan?<br />
+						Wat betekent CMX voor jou?<br />
+						Wanneer en hoe kwam je in contact met CMX?
+					</p>
+					<p>
+						Deel je ervaring en laat zien hoe Cinemaximiliaan jou heeft geïnspireerd of beïnvloed. Samen
+						kunnen we een levendig mozaïek maken van het verschil dat we de afgelopen tien jaar hebben
+						gemaakt.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="input">
+			<div class="block">
+				<div class="name">
+					<div class="firs-name">
+						<input type="text" placeholder="Voornaam" />
+					</div>
+					<div class="last-name">
+						<input type="text" placeholder="Achternaam" />
+					</div>
+				</div>
+				<div class="personal">
+					<div class="email">
+						<input type="text" placeholder="E-mail adres" />
+					</div>
+					<div class="anonymous">
+						<input type="text" placeholder="Anoniem?" />
+					</div>
+				</div>
+
+				<div class="story">
+					<label for="story"></label>
+					<textarea type="text" placeholder="Vertel ons je verhaal" id="story" rows="4"></textarea>
+				</div>
+			</div>
+			<div class="photo">
+				<input type="file" name="photo" />
+			</div>
+		</div>
+		<div class="submit">
+			<button onclick="submitForm()">Stuur in</button>
+		</div>
+	</div>
+</body>
+
+</html>
