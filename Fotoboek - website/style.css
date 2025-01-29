@@ -12,7 +12,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* Navigation */
+/* Navigation --> DONE!*/
 nav {
 	height: 130px;
 	background-color: #bcdef1;
@@ -76,7 +76,7 @@ nav img {
 	border: none;
 }
 
-/* Social Media */
+/* Social Media --> DONE!*/
 .socials {
 	z-index: 4;
 	display: flex;
@@ -136,7 +136,7 @@ header .information img {
 }
 
 header .ten-years {
-	font-size: 14pt;
+	font-size: 16pt;
 	color: #255377;
 	font-family: "Montserrat";
 	text-align: center;
@@ -148,11 +148,10 @@ header .ten-years {
 header .button-1 a {
 	background-color: #ec5671;
 	font-family: "Merriweather";
-	font-weight: bold;
 	color: white;
 	padding: 15px 30px;
 	border-radius: 50px;
-	font-size: 21pt;
+	font-size: 24pt;
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
@@ -164,7 +163,7 @@ header .button-1 a {
 	color: #255377;
 }
 
-/* Memories 1 & 2 */
+/* Memories 1 & 2 --> DONE!*/
 
 .title {
 	display: flex;
@@ -174,6 +173,7 @@ header .button-1 a {
 .title img {
 	height: 200px;
 	width: auto;
+	padding: 2%;
 }
 
 .memory1 {
@@ -194,8 +194,8 @@ header .button-1 a {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	margin-left: 45%;
-	margin-top: 15px;
+	margin-left: 44%;
+	padding-top: 10px;
 }
 
 .memory1 p {
@@ -203,8 +203,9 @@ header .button-1 a {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	margin-left: 45%;
+	margin-left: 44%;
 	margin-top: 10px;
+	max-width: 25%;
 }
 
 .memory2 {
@@ -224,8 +225,9 @@ header .button-1 a {
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
-	margin-left: 15%;
+	justify-content: right;
+	margin-left: 30%;
+	padding-top: 55px;
 }
 
 .memory2 p {
@@ -233,7 +235,9 @@ header .button-1 a {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	margin-left: 15%;
+	margin-left: 30%;
+	margin-top: 10px;
+	max-width: 20%;
 }
 
 /* memories 3 & 4 */
@@ -321,21 +325,14 @@ header .button-1 a {
 	transform: translate(-50%, -50%);
 }
 
-/* call to action */
-.button-2 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
+/* call to action --> DONE!*/
 .button-2 a {
 	background-color: #bcdef1;
 	color: #255377;
 	font-family: "Merriweather";
-	font-weight: bold;
 	padding: 15px 30px;
 	border-radius: 50px;
-	font-size: 21pt;
+	font-size: 24pt;
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
@@ -347,7 +344,7 @@ header .button-1 a {
 	transition: transform 0.3s ease;
 }
 
-/* Memories 5 */
+/* Memories 5 --> DONE!*/
 
 .memory5 {
 	background-image: url(images/Story_Rola.png);
