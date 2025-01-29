@@ -250,13 +250,14 @@ header .button-1 a {
 	background-color: #ec5671;
 	height: 750px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	gap: 0px;
 }
 
 .memory3,
 .memory4 {
+	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -264,8 +265,6 @@ header .button-1 a {
 
 .picturesDiv {
 	position: relative;
-	top: 0px;
-	left: 0px;
 }
 
 .backgroundPaperL,
@@ -273,7 +272,7 @@ header .button-1 a {
 	position: relative;
 	top: 0px;
 	left: 0px;
-	height: 675px;
+	height: 680px;
 	width: auto;
 }
 
@@ -281,26 +280,24 @@ header .button-1 a {
 .infoR {
 	position: relative;
 	top: 0;
-	transition: top 2s ease;
 }
 
 .infoL:hover {
-	top: -50rem;
 }
 
 .infoR:hover {
-	top: -50rem;
 }
 
 .Barbara {
 	position: absolute;
-	top: 30px;
+	top: 0px;
 	left: 30px;
-	width: 20rem;
+	width: 320px;
 }
 
 .memory3 h1,
 .memory4 h1 {
+	padding-top: 40px;
 	color: white;
 	align-self: center;
 	font-family: "Merriweather";
@@ -309,32 +306,20 @@ header .button-1 a {
 
 .Viet {
 	position: absolute;
-	top: 30px;
+	top: 0px;
 	right: 30px;
-	width: 20rem;
+	width: 320px;
 }
 
 .memory3-text,
 .memory4-text {
 	position: absolute;
-	top: 45%;
+	align-self: center;
+	top: 55%;
 	left: 50%;
+	right: -10%;
 	transform: translate(-50%, -50%);
 }
-
-/*.memory3,
-.memory4 {
-    display: contents;
-    position: relative;
-    flex: 1;
-    margin: 0 10px;
-}
-
-.memory3 img,
-.memory4 img {
-    height: 575px;
-    width: auto;
-} */
 
 /* call to action */
 .button-2 {
