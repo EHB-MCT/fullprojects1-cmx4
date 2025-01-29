@@ -325,7 +325,8 @@ header .button-1 a {
 }
 
 .Barbara,
-.Gohram {
+.Gohram,
+.name1 {
 	position: absolute;
 	top: 0px;
 	left: 30px;
@@ -334,7 +335,8 @@ header .button-1 a {
 }
 
 .Viet,
-.Mahyar {
+.Mahyar,
+.name2 {
 	position: absolute;
 	top: 0px;
 	right: 30px;
@@ -389,7 +391,7 @@ header .button-1 a {
 	height: 15px;
 	width: 15px;
 	margin: 0 2px;
-	background-color: #bbb;
+	background-color: #bcdef1;
 	border-radius: 50%;
 	display: inline-block;
 	transition: background-color 0.6s ease;
@@ -397,7 +399,7 @@ header .button-1 a {
 
 .active,
 .dot:hover {
-	background-color: #717171;
+	background-color: #163d5f;
 }
 
 /* Fading animation */
