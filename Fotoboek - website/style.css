@@ -252,11 +252,12 @@ header .button-1 a {
 /*PINK*/
 .memories-pink {
 	background-color: #ec5671;
-	height: 750px;
+	height: auto;
+	padding: 50px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 0px;
+	flex-wrap: wrap;
 }
 
 .memory3,
@@ -264,7 +265,6 @@ header .button-1 a {
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 	align-items: center;
 	width: 50%;
 	max-width: 500px;
@@ -272,36 +272,52 @@ header .button-1 a {
 
 .memory3 h1,
 .memory4 h1 {
-	padding-top: 40px;
 	color: white;
 	align-self: center;
 	font-family: "Merriweather";
 	font-weight: bold;
 }
 
+.memory3-text,
+.memory4-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	width: 60%;
+	z-index: 2;
+	font-size: 12pt;
+}
+
 .picturesDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 }
 
 .backgroundPaperL,
 .backgroundPaperR {
-	position: relative;
-	top: 0px;
-	left: 0px;
-	height: 680px;
+	max-width: 750px;
+	height: 720px;
 	width: auto;
+	position: relative;
+	z-index: 1;
 }
 
 .infoL,
 .infoR {
 	position: relative;
-	top: 0;
+	z-index: 1;
+	transition: z-index 0.4s ease-in-out;
 }
 
-.infoL:hover {
-}
-
+.infoL:hover,
 .infoR:hover {
+	z-index: 4;
 }
 
 .Barbara {
@@ -309,6 +325,7 @@ header .button-1 a {
 	top: 0px;
 	left: 30px;
 	width: 320px;
+	z-index: 3;
 }
 
 .Viet {
@@ -316,16 +333,7 @@ header .button-1 a {
 	top: 0px;
 	right: 30px;
 	width: 320px;
-}
-
-.memory3-text,
-.memory4-text {
-	position: absolute;
-	align-self: center;
-	top: 55%;
-	left: 50%;
-	right: -10%;
-	transform: translate(-50%, -50%);
+	z-index: 3;
 }
 
 /* call to action --> DONE!*/
