@@ -11,7 +11,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
 	let i;
-	let slides = document.getElementsByClassName("mySlides");
+	let slides = document.getElementsByClassName("memories-pink");
 	let dots = document.getElementsByClassName("dot");
 	if (n > slides.length) {
 		slideIndex = 1;
@@ -20,11 +20,12 @@ function showSlides(n) {
 		slideIndex = slides.length;
 	}
 	for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
+		slides[i].classList.remove("show"); // Verwijder de 'show' klasse van alle slides
 	}
+
 	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
 	}
-	slides[slideIndex - 1].style.display = "block";
+	slides[slideIndex - 1].classList.add("show"); // Voeg de 'show' klasse toe aan de actieve slide
 	dots[slideIndex - 1].className += " active";
 }
