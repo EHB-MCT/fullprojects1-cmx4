@@ -245,29 +245,91 @@ header .button-1 a {
 	background-color: #ec5671;
 	height: 750px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	gap: 50px;
-	position: relative;
-}
-.memory3,
-.memory4 {
-	display: contents;
-	position: relative;
-	flex: 1;
-	margin: 0 10px;
+	flex-wrap: wrap;
 }
 
-.memories-pink img {
-	height: 575px;
+.memory3,
+.memory4 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.picturesDiv {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.backgroundPaperL,
+.backgroundPaperR {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 675px;
 	width: auto;
+}
+
+.infoL,
+.infoR {
+	position: relative;
+	top: 0;
+	transition: top 2s ease;
+}
+
+.infoL:hover {
+	top: -50rem;
+}
+
+.infoR:hover {
+	top: -50rem;
+}
+
+.Barbara {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 20rem;
+}
+
+.memory3 h1,
+.memory4 h1 {
+	color: white;
+	align-self: center;
+	font-family: "Merriweather";
+	font-weight: bold;
+}
+
+.Viet {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 20rem;
+}
+
+.memory3-text,
+.memory4-text {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*.memory3,
+.memory4 {
+    display: contents;
+    position: relative;
+    flex: 1;
+    margin: 0 10px;
 }
 
 .memory3 img,
 .memory4 img {
-	height: 385px;
-	width: auto;
-}
+    height: 575px;
+    width: auto;
+} */
 
 /* call to action */
 .button-2 a {
@@ -290,14 +352,35 @@ header .button-1 a {
 
 /* Memories 5 */
 
-.memory5 img {
-	height: 200px;
-	width: auto;
+.memory5 {
+	background-image: url(images/Story_Rola.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-.memory5 {
+.memory5 h1 {
+	font-family: "Merriweather";
+	font-weight: bold;
+	margin: 0 100px;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 45%;
+	margin-top: 15px;
+}
+
+.memory5 p {
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 45%;
+	margin-top: 10px;
 }
 
 /*FOOTER --> DONE!*/
