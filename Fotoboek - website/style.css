@@ -2,12 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-	background-color: antiquewhite;
+	background-color: #f4edd0;
+	color: #255377;
 	margin: 0;
 	font-family: "Montserrat", sans-serif;
+	overflow-x: hidden;
 }
 
-/* Navigation */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Navigation --> DONE!*/
 nav {
 	height: 130px;
 	background-color: #bcdef1;
@@ -71,7 +77,7 @@ nav img {
 	border: none;
 }
 
-/* Social Media */
+/* Social Media --> DONE!*/
 .socials {
 	z-index: 4;
 	display: flex;
@@ -100,19 +106,35 @@ nav img {
 	background-color: #163d5f;
 }
 
+/*language buttons*/
+.language {
+	display: flex;
+	list-style-type: none;
+	gap: 35px;
+	margin-left: 660px;
+
+}
+
+.language li a {
+	text-decoration: none;
+	color: #163d5f;;
+	font-weight: 800;
+	border-radius: 5px;
+	background-color: #bcdef1;
+}
+
 /*Header --> DONE!**/
 
 header {
 	background-image: url(images/Header.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 100% auto;
+	aspect-ratio: 17 / 9;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
-	padding-top: 450px;
-	max-width: 100%;
 }
 
 header .information {
@@ -121,7 +143,7 @@ header .information {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 0;
+	padding-top: 100px;
 	margin-top: 100px;
 }
 
@@ -132,7 +154,7 @@ header .information img {
 }
 
 header .ten-years {
-	font-size: 16pt;
+	font-size: 12pt;
 	color: #255377;
 	font-family: "Montserrat";
 	text-align: center;
@@ -156,57 +178,84 @@ header .button-1 a {
 .button-1 a:hover {
 	background-color: #bcdef1;
 	transition: transform 0.3s ease;
-	color: black;
-}
-
-/* Memories 1 & 2 */
-
-.memory_1-2 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	width: 100%;
-}
-
-.memory1-text {
-	display: flex;
-	flex-direction: column;
-	justify-content: left;
-}
-
-.story-1-picture img {
-	position: relative;
-	height: 1000px;
-	margin-top: 150px;
-	margin-left: 150px;
-}
-
-.story-1-tekst {
-	position: absolute;
-	margin-left: 700px;
-	margin-top: 243px;
-}
-
-.story-1-tekst h1,
-.story-1-tekst p,
-.story-2-tekst h1,
-.story-2-tekst p {
 	color: #255377;
 }
 
-.story-2-picture img {
-	position: relative;
-	height: 1000px;
-	margin-top: -350px;
-	margin-left: 160px;
+/* Memories 1 & 2 --> DONE!*/
+
+.title {
+	display: flex;
+	justify-content: center;
 }
 
-.story-2-tekst {
-	position: relative;
-	margin-left: 380px;
-	margin-top: 30px;
+.title img {
+	height: 200px;
+	width: auto;
+	padding: 2%;
+}
+
+.memory1 {
+	background-image: url(images/Story_Khairullah.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.memory1 h1 {
+	font-family: "Merriweather";
+	font-weight: bold;
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 44%;
+	padding-top: 20px;
+}
+
+.memory1 p {
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 44%;
+	margin-top: 10px;
+	max-width: 25%;
+}
+
+.memory2 {
+	background-image: url(images/Story_Dialito.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.memory2 h1 {
+	font-family: "Merriweather";
+	font-weight: bold;
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	margin-left: 25%;
+	padding-top: 70px;
+}
+
+.memory2 p {
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 25%;
+	margin-top: 10px;
+	max-width: 28%;
 }
 
 /* memories 3 & 4 */
@@ -218,146 +267,291 @@ header .button-1 a {
 	margin-top: 200px;
 }
 
-/*Barbara*/
+/*PINK*/
+.memories-pink {
+	background-color: #ec5671;
+	height: auto;
+	padding: 50px 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
-.story-behind-1 {
+.memories-pink.show {
 	display: flex;
 }
 
-.story-behind-1-tekst {
-	position: absolute;
-	margin-left: 390px;
-	margin-top: 220px;
-}
-.story-behind-1-background-picture img {
-	position: relative;
-	height: 700px;
-	margin-top: 120px;
-	margin-left: 260px;
-}
-
-.picture-Barbara img {
-	position: absolute;
-	height: 500px;
-	margin-left: -600px;
-	margin-top: 100px;
-}
-
-.story-Barbara-title {
-	color: white;
-	font-size: 36px;
-	position: absolute;
-	margin-left: 330px;
-}
-
-/* Viet */
-
-.story-behind-2 {
+.memory3,
+.memory4 {
+	margin: 0 100px;
 	display: flex;
-	margin-left: -250px;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	max-width: 500px;
 }
 
-.story-behind-2-tekst {
-	position: absolute;
-	margin-left: 390px;
-	margin-top: 220px;
-}
-.story-behind-2-background-picture img {
-	position: relative;
-	height: 700px;
-	margin-top: 120px;
-	margin-left: 260px;
-}
-
-.picture-Viet img {
-	position: absolute;
-	height: 500px;
-	margin-left: -350px;
-	margin-top: 100px;
-}
-
-.story-Viet-title {
+.memory3 h1,
+.memory4 h1 {
 	color: white;
-	font-size: 36px;
-	position: absolute;
-	margin-left: 620px;
-}
-
-.story-behind-1-tekst p {
-	font-size: 14px;
-	color: #255377;
-}
-
-.story-behind-2-tekst p {
-	font-size: 14px;
-	color: #255377;
-}
-
-/* call to action */
-.button-3 a {
-	position: absolute;
-	background-color: #bcdef1;
+	align-self: center;
 	font-family: "Merriweather";
+	font-weight: bold;
+}
+
+.memory3-text,
+.memory4-text {
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	width: 60%;
+	z-index: 2;
+	font-size: 11pt;
+}
+
+.picturesDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.backgroundPaperL,
+.backgroundPaperR {
+	height: 750px;
+	width: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.infoL,
+.infoR {
+	position: relative;
+	z-index: 1;
+	transition: z-index 0.4s ease-in-out;
+}
+
+.infoL:hover,
+.infoR:hover {
+	z-index: 4;
+}
+
+.Barbara,
+.Gohram,
+.name1 {
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	width: 320px;
+	z-index: 3;
+}
+
+.Viet,
+.Mahyar,
+.name2 {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	width: 320px;
+	z-index: 3;
+}
+
+/*Slideshow*/
+.slideshow-container {
+	background-color: #ec5671;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
 	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bcdef1;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #163d5f;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* call to action --> DONE!*/
+.button-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-2 a {
+	background-color: #bcdef1;
+	color: #255377;
+	font-family: "Merriweather";
 	padding: 15px 30px;
 	border-radius: 50px;
 	font-size: 24pt;
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
-	transform: translateX(-50%);
-	left: 50%;
-	margin-top: -40px;
 }
 
-.button-4 a {
-	position: absolute;
-	transform: translateX(-50%);
-	left: 50%;
+.button-2 a:hover {
 	background-color: #ec5671;
 	color: white;
-	padding: 15px 100px;
-	border-radius: 25px;
-	font-size: 36px;
-	text-decoration: none;
-	margin-top: 18px;
-}
-
-.button-4 a:hover {
-	background-color: #bcdef1;
 	transition: transform 0.3s ease;
 }
 
-.footer {
+/* Memories 5 --> DONE!*/
+
+.memory5 {
+	background-image: url(images/Story_Rola.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
 	width: 100%;
-	height: 160px;
+	margin: 0;
+	padding: 0;
+}
+
+.memory5 h1 {
+	font-family: "Merriweather";
+	font-weight: bold;
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 45%;
+	margin-top: 15px;
+	padding-top: 20px;
+}
+
+.memory5 p {
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 45%;
+	margin-top: 10px;
+	max-width: 50%;
+}
+
+.ending {
+	display: flex;
+	flex-direction: column;
+}
+
+.ending img {
+	height: auto;
+	width: 90%;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+/*FOOTER --> DONE!*/
+footer {
+	height: 130px;
 	background-color: #bcdef1;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	color: #255377;
-	font-weight: 1000;
-	margin-top: 150px;
+	justify-content: space-between;
+	z-index: 2;
+	padding: 0 100px;
+	margin-top: 50px;
 }
 
-.footer li {
-	display: block;
-	white-space: nowrap; /* Prevent text from wrapping */
-	list-style: none; /* Remove default bullet points */
+footer img {
+	height: 85px;
+	width: auto;
 }
 
-.footer .title {
-	font-size: 36px;
-	margin-left: 90px;
-}
-
-.footer .words {
-	font-size: 36px;
+.footer-text {
+	list-style: none;
 	display: flex;
-	flex-direction: column; /* Stack items vertically */
-	align-items: flex-end; /* Align to the right */
-	margin-right: 90px; /* Add space from the right edge */
-	gap: 10px; /* Add space between words */
+	gap: 40px;
+	padding: 0;
+	font-family: "Merriweather";
+	font-size: 14pt;
+}
+
+.footer-text a {
+	display: inline;
+	text-decoration: none;
+	color: #255377;
+	font-weight: 600;
+	transition: color 0.3s ease;
+}
+
+.footer-text a:hover {
+	color: #ec5671;
+}
+
+.topButton img {
+	height: 35px;
+	width: auto;
+	transition: transform 0.3s ease;
+}
+
+.topButton img:hover {
+	transform: scale(1.2);
 }
 
 /* Responsive Design */
