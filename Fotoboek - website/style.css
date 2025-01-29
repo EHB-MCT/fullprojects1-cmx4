@@ -112,12 +112,11 @@ nav img {
 	list-style-type: none;
 	gap: 35px;
 	margin-left: 660px;
-
 }
 
 .language li a {
 	text-decoration: none;
-	color: #163d5f;;
+	color: #163d5f;
 	font-weight: 800;
 	border-radius: 5px;
 	background-color: #bcdef1;
@@ -363,9 +362,6 @@ header .button-1 a {
 }
 .story-behind-2-background-picture img {
 	position: relative;
-}
-
-.click {
 }
 
 .prev,
