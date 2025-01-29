@@ -136,7 +136,7 @@ header .information img {
 }
 
 header .ten-years {
-	font-size: 14pt;
+	font-size: 16pt;
 	color: #255377;
 	font-family: "Montserrat";
 	text-align: center;
@@ -148,11 +148,10 @@ header .ten-years {
 header .button-1 a {
 	background-color: #ec5671;
 	font-family: "Merriweather";
-	font-weight: bold;
 	color: white;
 	padding: 15px 30px;
 	border-radius: 50px;
-	font-size: 21pt;
+	font-size: 24pt;
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
@@ -188,8 +187,6 @@ header .button-1 a {
 }
 
 .memory1 h1 {
-	font-family: "Merriweather";
-	font-weight: bold;
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
@@ -219,8 +216,6 @@ header .button-1 a {
 }
 
 .memory2 h1 {
-	font-family: "Merriweather";
-	font-weight: bold;
 	margin: 0 100px;
 	display: flex;
 	flex-direction: column;
@@ -275,20 +270,13 @@ header .button-1 a {
 }
 
 /* call to action */
-.button-2 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .button-2 a {
 	background-color: #bcdef1;
 	color: #255377;
 	font-family: "Merriweather";
-	font-weight: bold;
 	padding: 15px 30px;
 	border-radius: 50px;
-	font-size: 21pt;
+	font-size: 24pt;
 	text-decoration: none;
 	margin-bottom: 50px;
 	transition: background-color 0.3s ease, transform 0.3s ease;
