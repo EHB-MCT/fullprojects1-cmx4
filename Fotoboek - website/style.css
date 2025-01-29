@@ -136,7 +136,7 @@ header .information img {
 }
 
 header .ten-years {
-	font-size: 16pt;
+	font-size: 12pt;
 	color: #255377;
 	font-family: "Montserrat";
 	text-align: center;
@@ -394,6 +394,18 @@ header .button-1 a {
 	margin-left: 45%;
 	margin-top: 10px;
 	max-width: 50%;
+}
+
+.ending {
+	display: flex;
+	flex-direction: column;
+}
+
+.ending img {
+	height: auto;
+	width: 90%;
+	padding-top: 5%;
+	padding-left: 5%;
 }
 
 /*FOOTER --> DONE!*/
