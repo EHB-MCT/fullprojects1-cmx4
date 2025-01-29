@@ -13,11 +13,19 @@ body {
 	margin: 20%;
 }
 
+.cross img {
+	height: 20px;
+	width: auto;
+	padding: 2%;
+	margin-left: 78%;
+}
+
 .popup-text {
 	margin: 0px 120px;
-	padding-top: auto;
 	margin-bottom: 50px;
 	color: #255377;
+	width: 69%;
+	padding-left: 25px;
 }
 
 .popup-text h1 {
@@ -27,7 +35,7 @@ body {
 .input {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 150px;
+	padding-left: 135px;
 }
 
 .input input {
@@ -37,13 +45,14 @@ body {
 	padding: 5px;
 	border-radius: 10px;
 	font-size: 16px;
-	margin-right: 20px;
+	width: 80%;
 }
 
 .input input::placeholder {
 	color: white;
 	font-family: "Merriweather";
 	font-size: 12px;
+	width: 50%;
 }
 
 .photo input {
@@ -82,7 +91,8 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 	font-size: 16px;
-	margin-right: 20px;
+	margin-right: 5px;
+	width: 87%;
 }
 
 .story textarea::placeholder {
