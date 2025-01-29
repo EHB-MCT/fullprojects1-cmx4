@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 	// Selecteer elementen
-	var modal = document.getElementById("myPopUp");
+	var modal = document.getElementById("myModal");
 	var btn = document.getElementById("myBtn");
 	var closeBtn = document.querySelector(".close");
 
 	// Open pop-up bij klik op knop
 	btn.onclick = function () {
-		modal.style.display = "flex";
+		modal.style.display = "block";
 	};
 
 	// Sluit pop-up bij klik op de X
