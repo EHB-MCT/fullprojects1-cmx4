@@ -3,20 +3,20 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Share your story</title>
-		<link rel="stylesheet" href="popup.css" />
+		<title>Share your CMX memory</title>
+		<link rel="stylesheet" href="submit-page.css" />
 	</head>
 	<body>
-		<div class="popup">
+		<div class="submit">
 			<div class="cross">
 				<a href="index.html">
-					<img src="images/Cross.png" alt="Facebook" />
+					<img src="images/Cross.png" alt="Close" />
 				</a>
 			</div>
 			<div class="content">
-				<div class="popup-text">
+				<div class="submit-text">
 					<div class="information">
-						<h1>Share your cinemaximiliaan memory</h1>
+						<h1>Share your Cinemaximiliaan memory</h1>
 						<p>
 							Cinemaximiliaan is turning 10, and your story is part of our
 							journey. We’re gathering personal experiences and visual
@@ -33,32 +33,44 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="input">
 				<div class="block">
 					<div class="name">
-						<div class="firs-name">
-							<input type="text" placeholder="First name" />
+						<div class="first-name">
+							<input
+								type="text"
+								name="first_name"
+								placeholder="First name"
+								required
+							/>
 						</div>
 						<div class="last-name">
-							<input type="text" placeholder="Last name" />
+							<input
+								type="text"
+								name="last_name"
+								placeholder="Last name"
+								required
+							/>
 						</div>
 					</div>
 					<div class="personal">
 						<div class="email">
-							<input type="text" placeholder="Email adress" />
+							<input type="email" name="email" placeholder="Email" required />
 						</div>
 						<div class="anonymous">
-							<input type="text" placeholder="Postel code" />
+							<input type="text" name="postal_code" placeholder="Postal code" />
 						</div>
 					</div>
 
 					<div class="story">
 						<label for="story"></label>
 						<textarea
-							type="text"
+							name="message"
 							placeholder="Tell us your story"
 							id="story"
 							rows="4"
+							required
 						></textarea>
 					</div>
 				</div>
@@ -66,8 +78,9 @@
 					<input type="file" name="photo" />
 				</div>
 			</div>
-			<div class="submit">
-				<button onclick="submitForm()">Submit</button>
+
+			<div class="button">
+				<button type="submit">Submit</button>
 			</div>
 		</div>
 	</body>
