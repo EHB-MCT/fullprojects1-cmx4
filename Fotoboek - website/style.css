@@ -177,7 +177,7 @@ header .button-1 a {
 	padding: 2%;
 }
 
-/* Memories 1 & 2 --> DONE!*/
+/* Memories 1 --> DONE!*/
 
 .slideshow-container-memory1 {
 	position: relative;
@@ -287,36 +287,108 @@ header .button-1 a {
 	background-color: #163d5f;
 }
 
+/* Memories 2 --> DONE!*/
+
+.slideshow-container-memory2 {
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+}
+
+.slideshow2 {
+	height: auto;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.slideshow2.show {
+	display: flex;
+}
+
 .memory2 {
-	background-image: url(images/Story_Dialito.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
+	position: relative;
 	width: 100%;
-	margin: 0;
-	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.memory2 img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.memory2-text {
+	position: absolute;
+	top: 15%;
+	right: 20%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: left;
+	width: 40%;
 }
 
 .memory2 h1 {
 	font-family: "Merriweather";
 	font-weight: bold;
-	margin: 0 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: right;
-	margin-left: 25%;
-	padding-top: 70px;
+	font-size: 24px;
+	text-align: left;
+	margin-bottom: 10px;
 }
 
 .memory2 p {
-	margin: 0 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
-	margin-left: 25%;
-	margin-top: 10px;
-	max-width: 28%;
+	font-size: 16px;
+	max-width: 80%;
+}
+
+.prev_memory2,
+.next_memory2 {
+	cursor: pointer;
+	width: auto;
+	padding: 16px;
+	color: #163d5f;
+	font-weight: bold;
+	font-size: 40px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	position: absolute;
+	top: 50%;
+}
+
+/* Position the "next button" to the right */
+.next_memory2 {
+	position: absolute;
+	right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev_memory2:hover,
+.next_memory2:hover {
+	background-color: rgba(22, 61, 95, 0.25);
+}
+
+/* The dots/bullets/indicators */
+.dot_memory2 {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bcdef1;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	margin-bottom: 20px;
+}
+
+.active,
+.dot_memory2:hover {
+	background-color: #163d5f;
 }
 
 /*PINK*/
