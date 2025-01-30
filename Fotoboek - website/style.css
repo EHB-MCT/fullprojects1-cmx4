@@ -106,22 +106,6 @@ nav img {
 	background-color: #163d5f;
 }
 
-/*language buttons*/
-.language {
-	display: flex;
-	list-style-type: none;
-	gap: 35px;
-	margin-left: 660px;
-}
-
-.language li a {
-	text-decoration: none;
-	color: #163d5f;
-	font-weight: 800;
-	border-radius: 5px;
-	background-color: #bcdef1;
-}
-
 /*Header --> DONE!**/
 
 header {
@@ -180,7 +164,7 @@ header .button-1 a {
 	color: #255377;
 }
 
-/* Memories 1 & 2 --> DONE!*/
+/*TITLE*/
 
 .title {
 	display: flex;
@@ -193,22 +177,33 @@ header .button-1 a {
 	padding: 2%;
 }
 
+/* Memories 1 & 2 --> DONE!*/
+
 .slideshow-container-memory1 {
 	position: relative;
 	max-width: 100%;
 	margin: auto;
 }
 
-.memory1 {
+.slideshow1 {
+	height: auto;
 	display: none;
-	position: relative;
-	width: 90%;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 }
 
-.memory1.show {
+.slideshow1.show {
 	display: flex;
+}
+
+.memory1 {
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	max-width: 500px;
 }
 
 .memory1 h1 {
@@ -230,6 +225,51 @@ header .button-1 a {
 	margin-left: 44%;
 	margin-top: 10px;
 	max-width: 25%;
+}
+
+.prev_memory1,
+.next_memory1 {
+	cursor: pointer;
+	width: auto;
+	padding: 16px;
+	color: #163d5f;
+	font-weight: bold;
+	font-size: 40px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	position: absolute;
+	top: 50%;
+}
+
+/* Position the "next button" to the right */
+.next_memory1 {
+	position: absolute;
+	right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev_memory1:hover,
+.next_memory1:hover {
+	background-color: rgba(22, 61, 95, 0.25);
+}
+
+/* The dots/bullets/indicators */
+.dot_memory1 {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bcdef1;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	margin-bottom: 20px;
+}
+
+.active,
+.dot_memory1:hover {
+	background-color: #163d5f;
 }
 
 .memory2 {

@@ -11,8 +11,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
 	let i;
-	let slides = document.getElementsByClassName("memory1");
-	let dots = document.getElementsByClassName("dot");
+	let slides = document.getElementsByClassName("slideshow1");
+	let dots = document.getElementsByClassName("dot_memory1");
 	if (n > slides.length) {
 		slideIndex = 1;
 	}
@@ -26,6 +26,6 @@ function showSlides(n) {
 	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
 	}
-	slides[slideIndex - 1].classList.add("show"); // Voeg de 'show' klasse toe aan de actieve slide
+	slides[slideIndex - 1].classList.add("show");
 	dots[slideIndex - 1].className += " active";
 }
