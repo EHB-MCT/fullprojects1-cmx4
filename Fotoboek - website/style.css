@@ -884,19 +884,20 @@ footer img {
 
 	/* Memories 2 responsive */
 	.memory2 {
+		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
 		text-align: center;
 		margin: 0;
 	}
 
 	.memory2-text {
-		position: absolute;
-		width: 50%;
-		right: 35%;
-		top: -5%;
+		position: relative;
+		width: 80%;
+		left: 10%;
 		transform: none;
-		text-align: left;
+		text-align: center;
 		padding: 10px;
 		order: -1;
 	}
@@ -908,7 +909,11 @@ footer img {
 
 	.memory1 h1,
 	.memory2 h1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		font-size: 20px;
+		text-align: center;
 	}
 
 	.memory1 p,
