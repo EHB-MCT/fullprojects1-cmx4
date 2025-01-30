@@ -847,6 +847,14 @@ footer img {
 		align-items: center;
 	}
 
+	header .information {
+		width: 90%;
+	}
+
+	header .ten-years {
+		font-size: 10pt;
+	}
+
 	/*Title*/
 	.title img {
 		height: 140px;
