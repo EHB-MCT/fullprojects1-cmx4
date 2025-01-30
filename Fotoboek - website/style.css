@@ -858,4 +858,27 @@ footer img {
 		justify-content: flex-end;
 		align-items: center;
 	}
+
+	/*FOOTER*/
+	footer {
+		flex-direction: column;
+		height: auto;
+		padding: 20px;
+		text-align: center;
+		gap: 20px;
+	}
+
+	footer img {
+		height: 80px;
+	}
+
+	.footer-text {
+		flex-direction: column;
+		gap: 15px;
+		font-size: 12pt;
+	}
+
+	.topButton img {
+		height: 30px;
+	}
 }
