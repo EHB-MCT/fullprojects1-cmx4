@@ -855,6 +855,67 @@ footer img {
 		font-size: 10pt;
 	}
 
+	/*Memories 1 & 2*/
+
+	/* Memories 1 responsive */
+	.memory1 {
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		text-align: center;
+	}
+
+	.memory1-text,
+	.memory1-text1 {
+		position: relative;
+		width: 90%;
+		left: auto;
+		top: auto;
+		transform: none;
+		text-align: center;
+		padding: 10px;
+		order: -1;
+	}
+
+	.memory1 img {
+		width: 90%;
+		max-width: 400px;
+	}
+
+	/* Memories 2 responsive */
+	.memory2 {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin: 0;
+	}
+
+	.memory2-text {
+		position: relative;
+		width: 90%;
+		right: auto;
+		top: auto;
+		transform: none;
+		text-align: center;
+		padding: 10px;
+		order: -1;
+	}
+
+	.memory2 img {
+		width: 90%;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.prev_memory1,
+	.next_memory1,
+	.prev_memory2,
+	.next_memory2 {
+		font-size: 30px;
+		padding: 10px;
+		top: 45%;
+	}
+
 	/*Title*/
 	.title img {
 		height: 140px;
