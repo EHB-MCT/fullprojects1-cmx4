@@ -1,23 +1,23 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndexMemory5 = 1;
+showSlidesMemory5(slideIndexMemory5);
 
-function plusSlides(n) {
-	showSlides((slideIndex += n));
+function plusSlidesMemory5(n) {
+	showSlidesMemory5((slideIndexMemory5 += n));
 }
 
-function currentSlide(n) {
-	showSlides((slideIndex = n));
+function currentSlideMemory5(n) {
+	showSlidesMemory5((slideIndexMemory5 = n));
 }
 
-function showSlides(n) {
+function showSlidesMemory5(n) {
 	let i;
-	let slides = document.getElementsByClassName("memory5");
-	let dots = document.getElementsByClassName("dot");
+	let slides = document.getElementsByClassName("slideshow3");
+	let dots = document.getElementsByClassName("dot_Memory5");
 	if (n > slides.length) {
-		slideIndex = 1;
+		slideIndexMemory5 = 1;
 	}
 	if (n < 1) {
-		slideIndex = slides.length;
+		slideIndexMemory5 = slides.length;
 	}
 	for (i = 0; i < slides.length; i++) {
 		slides[i].classList.remove("show"); // Verwijder de 'show' klasse van alle slides
@@ -26,6 +26,6 @@ function showSlides(n) {
 	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
 	}
-	slides[slideIndex - 1].classList.add("show"); // Voeg de 'show' klasse toe aan de actieve slide
-	dots[slideIndex - 1].className += " active";
+	slides[slideIndexMemory5 - 1].classList.add("show"); // Voeg de 'show' klasse toe aan de actieve slide
+	dots[slideIndexMemory5 - 1].className += " active";
 }
