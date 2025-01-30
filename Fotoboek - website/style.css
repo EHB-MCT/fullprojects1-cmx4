@@ -264,16 +264,17 @@ header .button-1 a {
 	max-width: 28%;
 }
 
-/* memories 3 & 4 */
-
-.storys-behind {
+/*PINK*/
+.memories-pink {
 	background-color: #ec5671;
-	height: 875px;
-	display: flex;
-	margin-top: 200px;
+	height: auto;
+	padding: 50px 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: relative;
 }
-
-/*Barbara*/
 
 .memories-pink.show {
 	display: flex;
@@ -329,38 +330,38 @@ header .button-1 a {
 .infoL,
 .infoR {
 	position: relative;
-	height: 700px;
-	margin-top: 120px;
-	margin-left: 260px;
+	z-index: 1;
+	transition: z-index 0.4s ease-in-out;
 }
 
-.picture-Barbara img {
+.infoL:hover,
+.infoR:hover {
+	z-index: 4;
+}
+
+.Barbara,
+.Gohram,
+.name1 {
 	position: absolute;
-	height: 500px;
-	margin-left: -600px;
-	margin-top: 100px;
+	top: 0px;
+	left: 30px;
+	width: 320px;
+	z-index: 3;
 }
 
-.story-Barbara-title {
-	color: white;
-	font-size: 36px;
+.Viet,
+.Mahyar,
+.name2 {
 	position: absolute;
-	margin-left: 330px;
+	top: 0px;
+	right: 30px;
+	width: 320px;
+	z-index: 3;
 }
 
-/* Viet */
-
-.story-behind-2 {
-	display: flex;
-	margin-left: -250px;
-}
-
-.story-behind-2-tekst {
-	position: absolute;
-	margin-left: 390px;
-	margin-top: 220px;
-}
-.story-behind-2-background-picture img {
+/*Slideshow*/
+.slideshow-container {
+	background-color: #ec5671;
 	position: relative;
 }
 
@@ -376,31 +377,72 @@ header .button-1 a {
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	position: absolute;
-	height: 500px;
-	margin-left: -350px;
-	margin-top: 100px;
+	top: 50%;
 }
 
-.story-Viet-title {
-	color: white;
-	font-size: 36px;
+/* Position the "next button" to the right */
+.next {
 	position: absolute;
-	margin-left: 620px;
+	right: 0;
 }
 
-.story-behind-1-tekst p {
-	font-size: 14px;
-	color: #255377;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(22, 61, 95, 0.25);
 }
 
-.story-behind-2-tekst p {
-	font-size: 14px;
-	color: #255377;
-}
-
-/* call to action */
-.button-3 a {
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #163d5f;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px 12px;
 	position: absolute;
+	top: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bcdef1;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	margin-bottom: 20px;
+}
+
+.active,
+.dot:hover {
+	background-color: #163d5f;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* call to action --> DONE!*/
+.button-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-2 a {
 	background-color: #bcdef1;
 	color: #255377;
 	font-family: "Merriweather";
