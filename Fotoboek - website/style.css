@@ -812,6 +812,41 @@ footer img {
 }
 
 @media screen and (max-width: 460px) {
+	nav {
+		height: auto;
+		flex-direction: column;
+		padding: 0 20px;
+	}
+
+	.nav-center {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	nav img {
+		height: 80px;
+	}
+
+	.items {
+		flex-direction: column;
+		text-align: center;
+		gap: 10px;
+	}
+
+	.socials {
+		padding-bottom: 10px;
+	}
+
+	.socials a img {
+		height: 15px;
+		width: 15px;
+	}
+
+	.hr-container {
+		display: none;
+	}
+
 	header {
 		background-image: url(images/Responsive_header.png);
 		background-position: center;
