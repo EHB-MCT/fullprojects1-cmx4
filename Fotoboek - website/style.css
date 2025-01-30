@@ -923,6 +923,49 @@ footer img {
 		margin: 30px;
 	}
 
+	/*Memory 5*/
+	.memory5 {
+		flex-direction: column;
+		position: relative;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.memory5-text {
+		position: absolute;
+		top: 25%;
+		left: 72%;
+		transform: translate(-50%, -50%);
+		width: 40%;
+		text-align: left;
+		padding: 10px;
+	}
+
+	.memory5 h1 {
+		font-size: 20px;
+	}
+
+	.memory5 p {
+		font-size: 14px;
+		max-width: 100%;
+	}
+
+	.memory5-text p:nth-of-type(2) {
+		display: none;
+	}
+
+	.memory5 img {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.prev_memory5,
+	.next_memory5 {
+		font-size: 30px;
+		padding: 10px;
+		top: 45%;
+	}
+
 	/*Ending*/
 	.ending {
 		display: none;
