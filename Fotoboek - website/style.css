@@ -142,6 +142,7 @@ header .ten-years {
 	font-family: "Montserrat";
 	text-align: center;
 	margin-bottom: 20px;
+	position: absolute;
 }
 
 /* call to action --> DONE!*/
@@ -840,7 +841,7 @@ footer img {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 100% auto;
-		aspect-ratio: 17 / 9;
+		aspect-ratio: 19 / 9;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
@@ -853,6 +854,7 @@ footer img {
 
 	header .ten-years {
 		font-size: 10pt;
+		padding-top: 210px;
 	}
 
 	/*Memories 1 & 2*/
