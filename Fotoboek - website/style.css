@@ -124,7 +124,7 @@ header .information {
 	padding-top: 100px;
 	margin-top: 100px;
 	position: absolute;
-	top: 85%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 35%;
@@ -143,6 +143,7 @@ header .ten-years {
 	text-align: center;
 	margin-bottom: 20px;
 	position: absolute;
+	margin-top: 40px;
 }
 
 /* call to action --> DONE!*/
