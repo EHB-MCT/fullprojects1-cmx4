@@ -859,6 +859,11 @@ footer img {
 		align-items: center;
 	}
 
+	/*Ending*/
+	.ending {
+		display: none;
+	}
+
 	/*FOOTER*/
 	footer {
 		flex-direction: column;
