@@ -20,12 +20,12 @@ function showSlides(n) {
 		slideIndex = slides.length;
 	}
 	for (i = 0; i < slides.length; i++) {
-		slides[i].classList.remove("show"); // Verwijder de 'show' klasse van alle slides
+		slides[i].classList.remove("show");
 	}
 
 	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
 	}
-	slides[slideIndex - 1].classList.add("show"); // Voeg de 'show' klasse toe aan de actieve slide
+	slides[slideIndex - 1].classList.add("show");
 	dots[slideIndex - 1].className += " active";
 }
