@@ -217,8 +217,20 @@ header .button-1 a {
 
 .memory1-text {
 	position: absolute;
-	top: 8%;
+	top: 9%;
 	left: 62%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: left;
+	width: 40%;
+}
+
+.memory1-text1 {
+	position: absolute;
+	top: 12%;
+	left: 63%;
 	transform: translate(-50%, -50%);
 	display: flex;
 	flex-direction: column;
