@@ -844,6 +844,68 @@ footer img {
 		align-items: center;
 	}
 
+	/*PINK*/
+	.memories-pink {
+		padding: 10px 10px;
+	}
+
+	.memory3,
+	.memory4 {
+		width: 80%;
+		margin: 0;
+	}
+
+	.memory3 h1,
+	.memory4 h1 {
+		font-size: 18pt;
+		text-align: center;
+	}
+
+	.memory3-text,
+	.memory4-text {
+		width: 65%;
+		font-size: 9pt;
+		top: 50%;
+	}
+
+	.picturesDiv {
+		flex-direction: column;
+	}
+
+	.backgroundPaperL,
+	.backgroundPaperR {
+		height: 600px;
+	}
+
+	.Barbara,
+	.Gohram,
+	.Viet,
+	.Mahyar {
+		width: 250px;
+		left: 10px;
+		right: 10px;
+	}
+
+	.slideshow-container {
+		padding: 10px;
+	}
+
+	.prev,
+	.next {
+		font-size: 30px;
+		padding: 10px;
+	}
+
+	.numbertext {
+		display: none;
+	}
+
+	.button-2 a {
+		font-size: 16pt;
+		padding: 10px 20px;
+		margin: 30px;
+	}
+
 	/*Ending*/
 	.ending {
 		display: none;
